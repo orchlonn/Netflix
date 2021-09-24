@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+.logo{
+    margin-top: 1.5rem;
+    height: 6vh;
+    width: 9.5vw;
+    background: url("./images/netflix\ logo.png") no-repeat center center/cover;
+}
+
+.header{
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    height: 10vh;
+    font-weight: 100;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.button{
+    height: 2rem;
+    // margin-right: 3.5rem;
+    margin-top: 1.8rem;
+    width: 5rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    background: rgb(247, 0, 0);
+}
+
+.p{
+    padding-left: 1rem;
+    padding-top: 7px;
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+
+.p2{
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+
+.body{
+    height: 100vh;
+    width: 100vw;
+    background: url("./images/background.png") no-repeat center center/ cover;
+    z-index: 2;
+    overflow-x: hidden;
+}
+
+.body:after {
+    content: '';
+    background: radial-gradient(rgba(0,0,0,0.3), #000);
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.biy{
+    position: absolute;
+    top: 33%;
+    left: 33%;
+    margin-left: auto;
+    z-index: 3;
+    margin-right: auto;
+}
+
+.garchig{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.jijigGarchig{
+    color: #fff;
+    font-size: 1.5rem;
+    padding-left: 3.5rem;
+    font-weight: 300;
+}
+
+.bichwer{
+    color: #fff;
+    padding-left: 1.1rem;
+    font-size: 1.19rem;
+    font-weight: 100;
+}
+
+.space{
+    padding-left: 2.5rem;
+}
+
+.margin-y{
+    margin-top: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.doodTal{
+    margin-left: -4rem;
+}
+
+.input{
+    height: 3.7rem;
+    padding: 0.5rem;
+    width: 28rem;
+    color: grey;
+    font-size: 1rem;
+    border: rgb(146, 137, 137) 0.5px solid;
+    
+    font-weight: 100;
+}
+
+.svg-icon-thin-x{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    transform: rotate(45deg);
+    transition: all .1s ease-in-out;
+    right: 12px;
+    bottom: 50%;
+    margin-bottom: -16px
+}
+
+.bigButton{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 100;
+    background-color: rgb(228, 13, 13);
+    height: 3.7rem;
+    border-bottom: #000 0.5px solid;
+    border-left: #000 0.5px solid;
+    width: 13rem;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.bigButton:hover{
+    background: rgb(255, 0, 0);
+}
+
+.svg{
+    width: 9.75px;
+    height: 19.5px;
+    margin-left: 10px;
+}
+
+.inp{
+    display: flex;
+}
+
+.p2{
+    font-size:1.5rem;
+    line-height: 58px;
+    
+}
+
+.right-side{
+    background-color: #000;
+    height: 65vh;
+    width: 50vw;
+    position: relative;
+    color: #fff;
+}
+
+.left-side{
+    position: relative; 
+    width: 50vw;
+}
+
+.tv{
+    position: relative;
+}
+
+.video{
+    position: absolute;
+    top: 22%;
+    left: 58%;
+}
+
+.zurag{
+    width: 15%;
+    height: 85%;
+    margin-top: 2%;
+}
+
+.smallP{
+    color: #fff;
+    font-weight: 500;
+    padding-bottom: 3px;
+}
+
+.blue{
+    color: rgb(0, 99, 243);
+    font-weight: 100;
+    padding-bottom: 4px;
+}
+
+.boxOfPoster{
+    margin-top: 1.2rem;
+    margin-left: 1.5rem;
+    height: 100%;
+    width: 75%;
+}
+
+.gif{
+    background: url("./images/download-icon.gif") center center no-repeat;
+}
+
+.gifBox{
+        border-radius: 10px;
+        position: absolute;
+        background: #000;
+        border: rgb(64,64,64) 2px solid;
+        display: flex;
+        position: absolute;
+        bottom: 0px;
+        right: 19%;
+}
+
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.kiddo{
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+
+.miniGarchig{
+    font-size: 2.7rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 5rem 6rem 0.5rem;
+}
+
+.Garchig{
+    font-size: 2.7rem;
+    color: #000;
+    font-weight: 600;
+}
+
+.miniGarchig-3{
+    position: absolute;
+    font-size: 2.7rem;
+    font-weight: 600;
+    top: 30%;
+    left: 15%;
+}
+
+
+.paragraph{
+    font-size: 1.5rem;
+    color: #fff;
+    line-height: 1.5em;
+    padding: 0 6rem;
+}
+
+.paragraph-2{
+    position: absolute;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    top: 53%;
+    left: 20%;
+}
+
+.paragraph-3{
+    position: absolute;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    top: 53%;
+    left: 15%;
+}
+
+
+.line{
+    width: 100vw;
+    height: 0.5rem;
+    background: rgb(34,34,34);
+}
+
+.box-2{
+    width: 100vw;
+    height: 40vh;
+    position: relative;
+    color: #fff;
+    background: #000;
+}
+
+.footer-container {
+    background: #000;
+    color: #fff;
+    width: 100vw
+}
+
+.box-container{
+    width: 60vw;
+    margin-left: 20%;
+}
+
+
+.askBox {
+    background-color: rgb(48, 48,48);
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    font-weight: 100;
+    width: 100%;
+    position: relative;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 2rem;
+    transition: 0.4s;
+    margin-top: 1rem;
+    border-bottom: 1px #000 solid;
+  }
+  
+    .askBox.active .svg-icon-thin-x {
+    transform: rotate(90deg);
+  }
+
+  
+  
+  .panel {
+    padding: 2rem;
+    display: none;
+    font-size: 1.5rem;
+    font-weight: 100;
+    background-color: rgb(48, 48,48);
+    overflow: hidden;
+  }
+
+  .almostFooter{
+      padding-left: 8rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+  }
+
+  .bigP{
+    color: rgb(117, 117,117);
+    display: inline-block;
+    padding-left: 11rem;
+  }
+
+  .paddT{
+      padding-top: 1.5rem;
+  }
+  .block{
+      display: block;
+  }
+
+  .inline{
+      display: inline;
+  }
+
+  .footerContainer{
+      display: flex;
+      color: rgb(117, 117,117);
+      justify-content: space-around;
+      padding:  0rem 10rem;
+  }
+
+  .paddTD{
+      padding: 3rem 0;
+  }
+
+
+  .tomH1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-bottom: .5rem;
+  }
+
+  .hairtsag{
+      background: #000;
+      display: block;
+  }
+
+  .hairtsagParagraph{
+      color: #fff;
+    }
+  .tomP{
+    font-size: 1.625rem;
+    font-weight: 300;
+  }
+
+  .margin1{
+      padding-top: 1.2rem;
+  }
+
+  .last{
+    color: rgb(117, 117,117);
+    font-size: 0.9rem;
+    margin-left: 1;
+    font-weight: 100;
+  }
+
+  .blue::after{
+    width: 3em;
+    height: 3em;
+    outline: 2px solid #000;
+    outline-offset: -2px;
+    display: block;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    background-size: 100%;
+    content: '';
+    margin-left: 70%;
+    margin-top: -18%;
+}
+
+
+// Correct CSS for General
+
+.section-large{
+    padding: 80px 0;
+}
+
+.section{
+    padding: 50px 0;
+}
+
+.section-small{
+    padding: 30px 0;
+}
+
+.dark-bg {
+    background-color: #000;
+}
+
+.margin2{
+    margin-top: 1.5rem;
+    margin-left: 14px;
+}
+
+.gray-bg {
+    background-color: #ccc;
+}
+
+.white-txt {
+    color: #fff;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.marginR{
+    margin-right: 3.5rem;
+}
+.marginL{
+    margin-left: 3.5rem;
+}
+
+.p:hover{
+    text-decoration: red 1px solid;
+    cursor: pointer;
+}
+
+.flex-ac {
+    display: flex;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.orch-img {
+
+}
+
+.orch p {
+
+}
+
+
+.orch h1 {
+
+}
+
+.orch-container {
+
+}
